@@ -1,8 +1,11 @@
 * {
   margin: 0;
   padding: 0;
+  color: black;
 }
-
+button{
+  cursor: pointer;
+}
 ul,
 ol {
   list-style-type: none;
@@ -26,5 +29,5 @@ a {
 
 .wrapper {
   width: 1080px;
+  margin: 0 auto;
 }
-.header
