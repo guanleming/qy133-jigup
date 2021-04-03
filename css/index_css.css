@@ -1,21 +1,24 @@
+/* 轮播图 */
 .slide-show-box {
   width: 100%;
+  padding: 10px 0 40px 0;
 }
 
-.slide-show-box p:nth-child(1) {
+/* 标题 */
+.slide-show-box h1 {
   display: block;
-  font-size: 20px;
-  font-weight: bold;
   margin: 0 auto;
-  padding-left: 9px;
+  padding: 10px 0px 20px;
 }
 
+/* 轮播图盒子 */
 .slide-show-box .hot {
   width: 1194px;
   height: 304px;
   margin: 0 auto;
 }
 
+/* 轮播图 图片内容 */
 .slide-show {
   float: left;
   position: relative;
@@ -24,6 +27,7 @@
   overflow: hidden;
 }
 
+/* 前进 后退 */
 .slide-show-box .show-prev img {
   display: none;
 }
@@ -42,6 +46,7 @@
   cursor: pointer;
 }
 
+/* 轮播列表 */
 .slide-show .show-list {
   position: absolute;
   left: 0px;
@@ -50,6 +55,7 @@
   height: 302px;
 }
 
+/* 轮播列表项 */
 .slide-show .show-list .show-item {
   position: relative;
   float: left;
@@ -147,4 +153,162 @@
   font-weight: normal;
   font-size: 16px;
   margin-top: 5px;
+}
+
+/* 报告精选 */
+
+.report-box {
+  width: 100%;
+  padding: 10px 0 40px 0;
+  background-color: #f7f7f7;
+}
+
+.report-box .report {
+  height: 561px;
+}
+
+/* 标题盒子  ---复用--- */
+.report-box .report .report-text {
+  padding: 10px 0 20px 0;
+}
+
+.report-box .report .report-text h1 {
+  display: inline-block;
+}
+
+.report-box .report .report-text a {
+  float: right;
+  line-height: 31px;
+  color: red;
+}
+
+.report-box .report ul {
+  width: 100%;
+  height: 500px;
+}
+
+.report-box .report li {
+  float: left;
+  width: 235px;
+  margin: 0px 44px 20px 0px;
+  height: 235px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.report-box .report li:nth-child(4) {
+  margin: 0px;
+}
+
+.report-box .report li:last-child {
+  margin: 0px;
+}
+
+/* 报告精选 图片 */
+.report-box .report li img {
+  width: 235px;
+  height: 140px;
+}
+
+.report-box .report li p {
+  font-size: 15px;
+  padding: 5px 5px;
+}
+
+/* 报告精选 信息 */
+
+.report-box .report li .img-infor {
+  font-size: 10px;
+  height: 20px;
+  margin: 10px 0;
+}
+
+.report-box .report li .img-infor div:nth-child(1) {
+  float: left;
+}
+
+.report-box .report li .img-infor div:nth-child(2) {
+  float: right;
+}
+
+.report-box .report li .img-infor div:nth-child(1) {
+  font-size: 14px;
+}
+
+.report-box .report li .img-infor div:nth-child(1) div {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  background-color: #b0b0b0;
+  border-radius: 50%;
+  margin: 7px 5px 0px 5px;
+}
+
+.report-box .report li .img-infor div:nth-child(2) {
+  font-size: 12px;
+}
+
+.report-box .report li .img-infor div:nth-child(2) span {
+  margin: 0px 5px;
+}
+
+/* 标题盒子  ---复用--- */
+.navigate-box .navigate .navigate-text {
+  padding: 10px 0 20px 0;
+}
+
+.navigate-box .navigate .navigate-text h1 {
+  display: inline-block;
+}
+
+.navigate-box .navigate .navigate-text a {
+  float: right;
+  line-height: 31px;
+  color: red;
+}
+
+.navigate-box .navigate ul {
+  height: 300px;
+}
+
+.navigate-box .navigate li {
+  float: left;
+  width: 235px;
+  height: 235px;
+  border: 1px solid #e0e0e0;
+  border-bottom: 0px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  overflow: hidden;
+  margin: 0px 44px 20px 0;
+  overflow: visible;
+}
+
+.navigate-box .navigate li img:nth-child(2) {
+  width: 236px;
+}
+
+.navigate-box .navigate li:last-child {
+  margin: 0;
+}
+
+.navigate-box .navigate li a img {
+  width: 235px;
+  height: 140px;
+}
+
+.navigate-box .navigate li a p {
+  padding: 5px 5px;
+}
+
+.navigate-box .navigate li a div {
+  float: right;
+  height: 20px;
+  margin: 10px 0 7px;
+  font-size: 12px;
+}
+
+.navigate-box .navigate li a div span {
+  margin: 0px 5px;
 }

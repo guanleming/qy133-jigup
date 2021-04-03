@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-04-02 14:51:29
- * @LastEditTime: 2021-04-02 16:29:00
+ * @LastEditTime: 2021-04-03 15:29:59
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \AAAf:\Web前端开发\项目\jiguo_clone\qy133-jigup\js\index.js
@@ -47,7 +47,6 @@ let focus_index = 0;
 // 轮播函数
 function play(fu) {
   flag = false;
-
   //   如果轮播到最后四个，右侧按钮消失，反之，显现
   if (focus_index == Math.ceil(show_item.length / 4 - 1)) {
     document.querySelector(".show-next img").style.display = "none";
