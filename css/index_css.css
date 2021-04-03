@@ -167,6 +167,10 @@
   height: 561px;
 }
 
+.report-box .report ul {
+  width: 1132px;
+  height: 500px;
+}
 /* 标题盒子  ---复用--- */
 .report-box .report .report-text {
   padding: 10px 0 20px 0;
@@ -182,11 +186,6 @@
   color: red;
 }
 
-.report-box .report ul {
-  width: 100%;
-  height: 500px;
-}
-
 .report-box .report li {
   float: left;
   width: 235px;
@@ -195,14 +194,6 @@
   border: 1px solid #e0e0e0;
   border-radius: 5px;
   overflow: hidden;
-}
-
-.report-box .report li:nth-child(4) {
-  margin: 0px;
-}
-
-.report-box .report li:last-child {
-  margin: 0px;
 }
 
 /* 报告精选 图片 */
@@ -226,6 +217,7 @@
 
 .report-box .report li .img-infor div:nth-child(1) {
   float: left;
+  color: gray;
 }
 
 .report-box .report li .img-infor div:nth-child(2) {
@@ -247,12 +239,15 @@
 
 .report-box .report li .img-infor div:nth-child(2) {
   font-size: 12px;
+  color: gray;
 }
 
 .report-box .report li .img-infor div:nth-child(2) span {
   margin: 0px 5px;
+  color: gray;
 }
 
+/* 导航精选 */
 /* 标题盒子  ---复用--- */
 .navigate-box .navigate .navigate-text {
   padding: 10px 0 20px 0;
@@ -268,6 +263,7 @@
   color: red;
 }
 
+/* 导航精选内容 */
 .navigate-box .navigate ul {
   height: 300px;
 }
@@ -280,9 +276,7 @@
   border-bottom: 0px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  overflow: hidden;
   margin: 0px 44px 20px 0;
-  overflow: visible;
 }
 
 .navigate-box .navigate li img:nth-child(2) {
@@ -307,8 +301,101 @@
   height: 20px;
   margin: 10px 0 7px;
   font-size: 12px;
+  color: gray;
 }
 
 .navigate-box .navigate li a div span {
   margin: 0px 5px;
+  color: gray;
+}
+
+/* 发现酷玩 */
+/* 标题盒子  ---复用--- */
+.find-box .find .find-text {
+  padding: 10px 0 20px 0;
+}
+
+.find-box .find .find-text h1 {
+  display: inline-block;
+}
+
+.find-box .find .find-text a {
+  float: right;
+  line-height: 31px;
+  color: red;
+}
+
+/* 内容 */
+.find-box .find ul {
+  width: 1132px;
+}
+
+.find-box .find li {
+  float: left;
+  width: 235px;
+  height: 235px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  margin: 0px 44px 20px 0;
+}
+
+.find-box .find li a img {
+  width: 235px;
+  height: 140px;
+}
+
+.find-box .find li a p:first-of-type {
+  font-size: 18px;
+  padding: 5px 0 2px 5px;
+}
+
+.find-box .find li a p:nth-child(3) {
+  font-size: 12px;
+  color: gray;
+  padding: 5px 0 2px 5px;
+}
+
+.find-box .find li a div:nth-child(4) {
+  height: 20px;
+  margin: 10px 0 7px;
+  line-height: 20px;
+}
+
+.find-box .find li a .price {
+  float: left;
+  color: red;
+  padding-left: 5px;
+}
+
+.find-box .find li a div:nth-child(4) div:nth-child(2) {
+  float: right;
+  font-size: 12px;
+  color: gray;
+  line-height: 20px;
+}
+
+.find-box .find li a div span {
+  margin: 0px 5px;
+  color: gray;
+}
+
+/* 点击加载更多 */
+
+.more-click {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+
+.more-click div {
+  display: inline-block;
+  color: red;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+.more-click div img {
+  padding-right: 10px;
+  color: red;
+  vertical-align: text-bottom;
 }
