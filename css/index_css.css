@@ -311,6 +311,10 @@
 
 /* 发现酷玩 */
 /* 标题盒子  ---复用--- */
+.find-box {
+  background: #f7f7f7;
+}
+
 .find-box .find .find-text {
   padding: 10px 0 20px 0;
 }
