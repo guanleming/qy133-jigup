@@ -265,7 +265,7 @@
 
 /* 导航精选内容 */
 .navigate-box .navigate ul {
-  height: 300px;
+  margin-bottom: 30px;
 }
 
 .navigate-box .navigate li {
@@ -276,7 +276,7 @@
   border-bottom: 0px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  margin: 0px 44px 20px 0;
+  margin: 0px 44px 30px 0;
 }
 
 .navigate-box .navigate li img:nth-child(2) {
@@ -290,6 +290,8 @@
 .navigate-box .navigate li a img {
   width: 235px;
   height: 140px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .navigate-box .navigate li a p {
