@@ -26,6 +26,12 @@ section h1:first-child {
   display: inline-block;
   width: 165px;
   height: 42px;
+  color: #a3a3a3;
+}
+
+.head-navigate a.active {
+  color: red;
+  border-bottom: 3px solid red;
 }
 
 .head-navigate li {
@@ -37,13 +43,13 @@ section h1:first-child {
   margin: 0 auto;
 }
 
-.head-navigate li.active {
-  color: red;
-  border-bottom: 3px solid red;
-}
-
 section {
   padding: 20px 0 0 0;
+}
+
+/* 最新、最热padding-top */
+.find-box {
+  padding-top: 20px;
 }
 
 /* 内容 */
@@ -56,6 +62,8 @@ section {
 .category {
   margin: 0 auto;
 }
+
+/* 品类 */
 
 /* 以下所有 复用样式 不设高度 */
 
