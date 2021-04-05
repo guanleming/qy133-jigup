@@ -41,8 +41,10 @@
   font-size: 20px;
   text-align: center;
 }
-.header-max .header-img .header-list ul li :hover {
-  cursor: pointer;
+.header-max .header-img .header-list ul li a {
+  display: inline-block;
+  width: 60px;
+  height: 71px;
 }
 .header-max .header-img .header-list ul .active {
   border-bottom: 4px solid red;

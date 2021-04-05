@@ -1,13 +1,12 @@
 /*
  * @Author: your name
  * @Date: 2021-04-02 14:51:29
- * @LastEditTime: 2021-04-03 18:25:39
+ * @LastEditTime: 2021-04-05 13:33:46
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \AAAf:\Web前端开发\项目\jiguo_clone\qy133-jigup\js\index.js
  */
 //点击登录让遮罩层显示 登录框显示
-
 $(".clk-login").click(function () {
   $(".login-zz, .login").fadeIn(1000);
 });
@@ -83,7 +82,7 @@ prev.onclick = function () {
 
 // 点击加载更多
 
-let more = document.querySelector(".more-click");
+let more = document.querySelector(".more-click div");
 let more_img = document.querySelector(".more-click img");
 
 more.onclick = function () {

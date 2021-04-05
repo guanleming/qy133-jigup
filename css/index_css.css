@@ -382,24 +382,3 @@
   margin: 0px 5px;
   color: gray;
 }
-
-/* 点击加载更多 */
-
-.more-click {
-  width: 100%;
-  height: 100px;
-  text-align: center;
-}
-
-.more-click div {
-  display: inline-block;
-  color: red;
-  cursor: pointer;
-  margin-top: 40px;
-}
-
-.more-click div img {
-  padding-right: 10px;
-  color: red;
-  vertical-align: text-bottom;
-}
