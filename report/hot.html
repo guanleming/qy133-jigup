@@ -1,0 +1,307 @@
+<!--
+ * @Author: your name
+ * @Date: 2021-04-03 19:16:33
+ * @LastEditTime: 2021-04-06 11:48:36
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \AAAf:\Web前端开发\项目\jiguo_clone\qy133-jigup\play\play.html
+-->
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>酷玩-最新</title>
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/report_css.css" />    
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_2463051_j3jh9su1k1.css">
+  </head>
+  <body>
+    <!-- 登录遮罩 -->
+    <div class="login-zz" hidden></div>
+    <!-- 网页头部(公共) -->
+    <header class="wrapper header-max">
+      <div class="header-img">
+        <a href="index.html"><img src="../img/logonew.png" alt="" /></a>
+
+        <div class="header-list">
+          <ul>
+            <li><a href="../index.html" class="shoye">首页</a></li>
+            <li><a href="../play/index.html">酷玩</a></li>
+            <li><a href="../guid/index.html">导购</a></li>
+            <li><a href="../use/index.html">试用</a></li>
+            <li class="active"><a href="../report/index.html">报告</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="header-login">
+        <a href="##"><img src="../img/search.png" alt="" /></a>
+        <a href="##" class="clk-login"><button>登录</button></a>
+        <a href="##"><button>注册</button></a>
+      </div>
+
+      <!-- 登录弹出窗 -->
+
+      <!-- 弹窗 -->
+      <div class="login" hidden>
+        <form action="index.html">
+          <div class="login_left">
+            <h2>极果账号登录</h2>
+            <input
+              id="phone"
+              type="text"
+              placeholder="邮箱/手机号/用户名"
+              autocomplete="off"
+              required
+              pattern="[a-zA-Z0-9]{1,10}@[a-zA-Z0-9]{1,5}\.[a-zA-Z0-9]{1,5}|^1[3578]\d{9}$|^[\u4e00-\u9fa5]{2,4}$"
+              title="请输入正确的手机号"
+            />
+            <!-- 字母开头，长度在6~18之间，只能包含字母、数字和下划线 -->
+            <input
+              id="password"
+              type="password"
+              placeholder="密码"
+              required
+              pattern="^[a-zA-Z]\w{5,17}$"
+              title="密码错误"
+            />
+            <div>
+              <input type="checkbox" id="checkbox" /><span>下次自动登录</span>
+              <input type="submit" value="登录" id="login" />
+            </div>
+            <div class="rember">
+              <a href="#">注册新账号</a>
+              <a href="#">忘记密码？</a>
+            </div>
+          </div>
+        </form>
+        <div class="login_right">
+          <img id="closeOff" src="./img/clos.png" alt="" />
+          <h3>社交网络账号登录</h3>
+          <img class="weixin" src="./img/weixin_code.jpg" alt="" />
+          <div class="fenxiang">
+            <a href="#" class="weibo">微博</a>
+            <a href="#" class="qq">QQ</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section>
+      <!-- 发现酷玩 -->
+      <h1>体验报告</h1>
+      <div class="navigate-box">
+        <ul class="head-navigate">
+          <li><a href="./index.html">最新</a></li>
+          <li><a href="./hot.html" class="active">最热</a></li>          
+        </ul>
+      </div>
+
+            <!-- 内容 -->
+            <div class="report-box">
+              <div class="report clearfix">
+                <div class="report-main">
+                    <ul>
+                        <li>
+                            <a href="#">
+                            <img src="../img/bg1.jpg" alt="">
+                            <div class="text">
+                                <p>空气净化器里面学问多得惊呆你，你选对了吗？</p>
+                                <div class="infor">
+                                    <div class="left">
+                                        <img src="../img/dg_03.png" alt="">
+                                        <span class="author">苏苏</span>
+                                        <span class="time">2021-04-06</span>
+                                    </div>
+                                    <div class="right iconfont">
+                                        &#xe607;<span>999</span>
+                                        &#xe9e2;<span>999</span>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>                            
+                        </li>
+                        <li>
+                            <a href="#">
+                            <img src="../img/bg1.jpg" alt="">
+                            <div class="text">
+                                <p>空气净化器里面学问多得惊呆你，你选对了吗？</p>
+                                <div class="infor">
+                                    <div class="left">
+                                        <img src="../img/dg_03.png" alt="">
+                                        <span class="author">苏苏</span>
+                                        <span class="time">2021-04-06</span>
+                                    </div>
+                                    <div class="right iconfont">
+                                        &#xe607;<span>999</span>
+                                        &#xe9e2;<span>999</span>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>                            
+                        </li>
+                        <li>
+                            <a href="#">
+                            <img src="../img/bg1.jpg" alt="">
+                            <div class="text">
+                                <p>空气净化器里面学问多得惊呆你，你选对了吗？</p>
+                                <div class="infor">
+                                    <div class="left">
+                                        <img src="../img/dg_03.png" alt="">
+                                        <span class="author">苏苏</span>
+                                        <span class="time">2021-04-06</span>
+                                    </div>
+                                    <div class="right iconfont">
+                                        &#xe607;<span>999</span>
+                                        &#xe9e2;<span>999</span>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>                          
+                        </li>
+                        <li>
+                            <a href="#">
+                            <img src="../img/bg1.jpg" alt="">
+                            <div class="text">
+                                <p>空气净化器里面学问多得惊呆你，你选对了吗？</p>
+                                <div class="infor">
+                                    <div class="left">
+                                        <img src="../img/dg_03.png" alt="">
+                                        <span class="author">苏苏</span>
+                                        <span class="time">2021-04-06</span>
+                                    </div>
+                                    <div class="right iconfont">
+                                        &#xe607;<span>999</span>
+                                        &#xe9e2;<span>999</span>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>                            
+                        </li>
+                        <li>
+                            <a href="#">
+                            <img src="../img/bg1.jpg" alt="">
+                            <div class="text">
+                                <p>空气净化器里面学问多得惊呆你，你选对了吗？</p>
+                                <div class="infor">
+                                    <div class="left">
+                                        <img src="../img/dg_03.png" alt="">
+                                        <span class="author">苏苏</span>
+                                        <span class="time">2021-04-06</span>
+                                    </div>
+                                    <div class="right iconfont">
+                                        &#xe607;<span>999</span>
+                                        &#xe9e2;<span>999</span>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>                          
+                        </li>
+                    </ul>
+                </div>
+                <aside>
+                    <ul>
+                        <li>
+                            <p>极果体验师</p>
+                            <img src="../img/tiyanImg.jpg" alt="">
+                            <dd>
+                                <dl>福利</dl>
+                                <dd>第一时间体验新品，大众试用优先通过，还有定向邀请试用，新品玩到手软！</dd>
+                                <dl>要求</dl>
+                                <dd>是某个领域的大神级玩家，在社交网络或圈子里有大影响力，善写作会拍摄。</dd>
+                                <dl>申请</dl>
+                                <dd>1. 关注极果公众号：jguojguo
+                                    <br>
+                                    （或扫描下方二维码）
+                                    <br>
+                                    2. 在公众号内回复：体验师
+                                </dd>
+                            </dd>
+                        </li>
+                        <li>
+                            <p>关于我们</p>
+                            <img src="../img/myCode.jpg" alt="">
+                        </li>
+                    </ul>
+                </aside>
+              </div>
+
+      <!-- 点击加载更多 -->
+      <div class="more-click">
+        <div><img src="../img/more.png" alt="">点击加载更多</div>
+      </div>
+    </section>
+
+    <!-- 网站底部(公共) -->
+    <footer class="footer_total">
+        <div class="footer_main clearfix">
+            <div class="footer_picture">
+                <a href="index.html"><img src="../img/code.png" alt="#" class="footer_erweima"></a>
+                
+            </div>
+            <div class="footer_nav">
+                <dl>
+                    <dt><a href="index.html"><img src="../img/logoImg.jpg" alt="#"></a></dt>
+                    <dd><a href="#">全球酷玩试用导购平台</a></dd>
+                    <dd class="footer_jian"><a href="#">酷·新奇·好玩·品质</a></dd>
+                    <dd><a href="#">微信添加"HuChenYang"</a></dd>
+                    <dd><a href="../src/about.html">获取我们的服务</a></dd>
+                </dl>
+                <dl>
+                    <dt>免费试用</dt>
+                    <dd><a href="##">试用流程</a></dd>
+                    <dd><a href="#">如何提高成功率</a></dd>
+                </dl>
+                <dl class="footer_dl_1">
+                    <dt>友情链接</dt>
+                    <dd><a href="#">智东西</a></dd>
+                    <dd><a href="#">搜狐IT</a></dd>
+                    <dd><a href="#">搜狐数码</a></dd>
+                    <dd><a href="#">凤凰数码</a></dd>
+                    <dd><a href="#">泡泡网</a></dd>
+                    <dd><a href="#">ZUK社区</a></dd>
+                    <dd><a href="#">极客公园</a></dd>
+                    <dd><a href="#">果库</a></dd>
+                </dl>
+                <dl class="footer_dl_2">
+                    <dd><a href="#">WEIBUSI</a></dd>
+                    <dd><a href="#">腾讯科技</a></dd>
+                    <dd><a href="#">凤凰科技</a></dd>
+                    <dd><a href="#">PConline</a></dd>
+                    <dd><a href="#">3W咖啡</a></dd>
+                    <dd><a href="#">亿觅emie</a></dd>
+                    <dd><a href="#">易迅易启玩</a></dd>
+                </dl>
+                <dl>
+                    <dt>购买攻略</dt>
+                    <dd><a href="#">美亚海淘教程</a></dd>
+                    <dd><a href="#">日亚海淘教程</a></dd>
+                    <dd><a href="#">海淘转运攻略</a></dd>
+                    <dd><a href="#">kickstarter众筹购买攻略</a></dd>
+                    <dd><a href="#">indiegogo众筹购买攻略</a></dd>
+                </dl>
+                <dl>
+                    <dt>厂商合作</dt>
+                    <dd><a href="#">关于极果</a></dd>
+                    <dd><a href="#">联系我们</a></dd>
+                    <dd><a href="#">商务合作：BD@jiguo.com</a></dd>
+                    <dd><a href="#">CEO邮箱：CED@jiguo.com</a></dd>
+                </dl>
+            </div>
+        </div>
+        <div class="footer_btm">
+            &copy:2020 极果版权所有
+        </div>
+        <div class="footer_return">
+
+        </div>
+    </footer>
+</body>
+<script src="../js/jquery-3.5.1.min.js"></script>
+<script src="../js/animate.js"></script>
+<script src="../js/play.js"></script>
+</html>
+  </body>
+</html>

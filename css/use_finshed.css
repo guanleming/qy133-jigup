@@ -1,0 +1,14 @@
+.slide-show .show-list .show-item div {
+    display: inline-block;
+    padding: 3px 7px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #ccc;
+    font-size: 12px;
+    margin: 5px 0;
+  }
+  
+  .slide-show .show-list .show-item p:last-child {
+    color: #ccc;
+    font-weight: normal;
+  }

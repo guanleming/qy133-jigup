@@ -45,12 +45,12 @@ section h1:first-child {
 
 section {
   padding: 20px 0 0 0;
-  background-color: #f7f7f7;
 }
 
 /* 最新、最热padding-top */
 .navigate-box {
   padding-top: 20px;
+  background-color: #f7f7f7;
 }
 
 /* 内容 */

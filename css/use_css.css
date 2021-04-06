@@ -1,0 +1,193 @@
+.wrapper-category {
+  width: 1000px;
+}
+
+/* 发现酷玩标题 */
+section h1:first-child {
+  font-size: 42px;
+  font-weight: normal;
+  padding: 30px 0;
+  text-align: center;
+}
+
+/* 头部导航 */
+.navigation-box {
+  width: 100%;
+  height: 45px;
+}
+
+.head-navigate {
+  width: 330px;
+  height: 42px;
+  margin: 0 auto;
+}
+
+.head-navigate a {
+  display: inline-block;
+  width: 165px;
+  height: 42px;
+  color: #a3a3a3;
+}
+
+.head-navigate a.active {
+  color: red;
+  border-bottom: 3px solid red;
+}
+
+.head-navigate li {
+  float: left;
+  width: 165px;
+  font-size: 18px;
+  text-align: center;
+  height: 42px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 20px 0 0 0;
+}
+
+/* 内容导航 */
+
+.slide-navigate {
+  border-top: 1px solid #e0e0e0;
+}
+
+.slide-navigate ul {
+  margin: 0 auto;
+  width: 660px;
+}
+
+.slide-navigate li {
+  float: left;
+  width: 165px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.slide-navigate a {
+  color: #a3a3a3;
+  font-size: 18px;
+}
+
+.slide-navigate a.active {
+  color: #474747;
+}
+
+/* 内容 */
+
+.sliede-show-box {
+  padding: 20px 0;
+  background-color: #f7f7f7;
+}
+
+/*  图片内容 */
+.slide-show {
+  margin: 0 auto;
+}
+
+/* 列表 */
+.slide-show .show-list {
+  width: 1124px;
+}
+
+/* 列表项 */
+.slide-show .show-list .show-item {
+  position: relative;
+  float: left;
+  width: 235px;
+  height: 300px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center;
+  margin: 0 37px 35px 0;
+}
+
+.slide-show .show-list .show-item:last-child {
+  margin-right: 0px;
+}
+
+.slide-show .show-list .show-item .first {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  display: inline-block;
+  height: 25px;
+  padding: 0px 7px;
+  text-align: center;
+  line-height: 25px;
+  background-color: red;
+  color: white;
+  border-bottom-left-radius: 5px;
+  font-size: 14px;
+}
+
+/* .slide-show .show-list .show-item:nth-child(2) .first {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  display: inline-block;
+  height: 25px;
+  padding: 0px 7px;
+  text-align: center;
+  line-height: 25px;
+  background-color: #fcf4cf;
+  color: #ccb67e;
+  border-bottom-left-radius: 5px;
+  font-size: 14px;
+} */
+
+.slide-show .show-list .show-item img {
+  width: 235px;
+  margin-bottom: 12px;
+}
+
+.slide-show .show-list .show-item h3 {
+  padding: 0px 5px;
+}
+
+.slide-show .show-list .show-item div {
+  display: inline-block;
+  padding: 3px 7px;
+  border: 1px solid red;
+  border-radius: 5px;
+  color: red;
+  font-size: 12px;
+  margin: 5px 0;
+}
+
+/* .slide-show .show-list .show-item:nth-child(2) div {
+  display: inline-block;
+  padding: 3px 7px;
+  border: 1px solid #89c07a;
+  border-radius: 5px;
+  color: #89c07a;
+  font-size: 12px;
+  margin: 5px 0;
+} */
+
+.slide-show .show-list .show-item p {
+  font-weight: normal;
+  color: #000;
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.slide-show .show-list .show-item p span {
+  color: red;
+  font-weight: normal;
+}
+
+/* .slide-show .show-list .show-item:nth-child(2) p:last-child {
+  color: #89c07a;
+  font-weight: normal;
+} */
+
+.slide-show .show-list .show-item p:last-child {
+  color: red;
+  font-weight: normal;
+  font-size: 16px;
+  margin-top: 5px;
+}
