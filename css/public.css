@@ -8,7 +8,6 @@
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.6);
   position: fixed;
-  z-index: 10;
 }
 /* 网页头部 */
 .header-max {
@@ -42,10 +41,8 @@
   font-size: 20px;
   text-align: center;
 }
-.header-max .header-img .header-list ul li a {
-  display: inline-block;
-  width: 60px;
-  height: 71px;
+.header-max .header-img .header-list ul li :hover {
+  cursor: pointer;
 }
 .header-max .header-img .header-list ul .active {
   border-bottom: 4px solid red;
@@ -86,7 +83,7 @@
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 11;
+  z-index: 5;
   box-shadow: 3px 4px 5px #444;
   overflow: hidden;
 }
@@ -185,7 +182,8 @@
   padding-top: 5px;
   color: #888;
 }
-/* 尾部 */
+
+  /* 尾部 */
 .clearfix::before,
 .clearfix:after {
   content: "";
@@ -202,7 +200,7 @@
 }
 .footer_total .footer_main {
   padding-top: 40px;
-  width: 1000px;
+  width: 1080px;
   margin: 0 auto;
 }
 .footer_erweima {
@@ -257,7 +255,7 @@ dd.footer_jian {
   display: none;
   cursor: pointer;
   border-radius: 5px;
-  background: url("../image/icon/back.png") no-repeat center center;
+  background: url('../img/weibo.png') no-repeat center center;
   background-color: #e8e8e8;
 }
 /* 加载更多 */
@@ -270,45 +268,10 @@ dd.footer_jian {
 .main_more > .nomain_loading {
   color: #ff5a25;
   cursor: pointer;
-  background: url("../img/code.png") no-repeat 430px center;
+  background: url('../img/code.png') no-repeat 430px center;
 }
 .main_more > .main_loading {
   color: #ff5a25;
   cursor: pointer;
-  background: url("../image/icon/loading-icon.gif") no-repeat 430px center;
-}
-@keyframes example {
-  from {
-    margin-left: 1300px;
-    margin-top: -100px;
-  }
-  to {
-    margin-left: 950px;
-    margin-top: 40px;
-  }
-}
-.footer_total > .footer_return {
-  position: fixed;
-  right: 120px;
-  bottom: 59px;
-  width: 42px;
-  height: 42px;
-  cursor: pointer;
-  border-radius: 5px;
-  background: url("../img/back.png") no-repeat center center;
-  background-color: #e8e8e8;
-}
-.top {
-  position: fixed;
-  right: 20px;
-  bottom: 10%;
-  width: 50px;
-  height: 50px;
-  font-size: 30px;
-  text-align: center;
-  line-height: 50px;
-  color: #e0e0e0;
-  outline: none;
-  border: 0px;
-  background-color: #b0b0b0;
+  background: url('../image/icon/loading-icon.gif') no-repeat 430px center;
 }

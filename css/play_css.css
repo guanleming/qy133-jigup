@@ -114,6 +114,10 @@ section {
   padding-top: 12px;
 }
 
+.category-box li dd:nth-child(2) div p:hover {
+  color: rgb(180, 39, 39);
+}
+
 /* 标题列 */
 
 .category-box dd:nth-child(3) {
@@ -133,4 +137,8 @@ section {
   display: inline-block;
   font-size: 14px;
   color: #a3a3a3;
+}
+
+.category-box dd:nth-child(3) div p:hover {
+  color: rgb(180, 39, 39);
 }

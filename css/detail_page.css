@@ -1,0 +1,174 @@
+section {
+  width: 100%;
+  background-color: #F7F7F7;
+}
+section .detail_max_box {
+  width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+section .detail_max_box .detail_max_box_left {
+  width: 66%;
+}
+section .detail_max_box .detail_max_box_left .nav-detail {
+  line-height: 50px;
+  color: #969696;
+}
+section .detail_max_box .detail_max_box_left .nav-detail a {
+  color: #969696;
+}
+section .detail_max_box .detail_max_box_left .detail_left_main {
+  width: 100%;
+  background-color: white;
+  border-radius: 6px;
+}
+section .detail_max_box .detail_max_box_left .detail_left_main .detail_left_main_one {
+  padding-left: 22px;
+  padding-right: 22px;
+  border-bottom: 1px solid #6f6e6e;
+}
+section .detail_max_box .detail_max_box_left .detail_left_main .detail_left_main_one p:nth-of-type(1) {
+  font-size: 24px;
+  line-height: 54px;
+}
+section .detail_max_box .detail_max_box_left .detail_left_main .detail_left_main_one p:nth-of-type(2) {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  line-height: 54px;
+}
+section .detail_max_box .detail_max_box_left .detail_left_main .detail_left_main_one p:nth-of-type(2) span:nth-of-type(1) span:nth-of-type(1) {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: url(../img/tx.jpg);
+}
+section .detail_max_box .detail_max_box_left .detail_left_main .detail_left_main_one p:nth-of-type(2) span:nth-of-type(1) span:nth-of-type(2) {
+  color: #848484;
+}
+section .detail_max_box .detail_max_box_left .detail_left_main .detail_left_main_two {
+  padding: 20px;
+}
+section .detail_max_box .detail_max_box_left .detail_left_main .detail_left_main_two p {
+  line-height: 25px;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+section .detail_max_box .detail_max_box_left .detail_left_main .detail_left_main_two .p2 {
+  font-weight: bold;
+  text-align: center;
+}
+section .detail_max_box .detail_max_box_left .detail_left_main .detail_left_main_two .span1 {
+  line-height: 25px;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+section .detail_max_box .detail_max_box_left .detail_left_main .detail_left_main_two a {
+  line-height: 26px;
+  color: #6f6e6e;
+}
+section .detail_max_box .detail_max_box_right {
+  width: 32%;
+  display: flex;
+  padding-top: 50px;
+  justify-content: center;
+}
+section .detail_max_box .detail_max_box_right .heart_box {
+  width: 100px;
+  height: 80px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+}
+section .detail_max_box .detail_max_box_right .heart_box .kong_xin {
+  width: 60px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+section .detail_max_box .detail_max_box_right .heart_box .kong_xin .show_xin {
+  margin: 0 auto;
+  width: 20px;
+  height: 20px;
+  background: url(../img/xinRedo.png) no-repeat;
+  background-size: 100%;
+}
+section .detail_max_box .detail_max_box_right .heart_box .kong_xin span {
+  line-height: 40px;
+}
+section .detail_max_box .detail_max_box_right .heart_box .hong_xin {
+  width: 60px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 15px;
+  display: none;
+}
+section .detail_max_box .detail_max_box_right .heart_box .hong_xin .show_hong_xin {
+  margin: 0 auto;
+  width: 20px;
+  height: 20px;
+  background: url(../img/xinRedh.png) no-repeat;
+  background-size: 100%;
+}
+section .detail_max_box .detail_max_box_right .heart_box .hong_xin span {
+  line-height: 40px;
+  text-align: center;
+}
+section .detail_max_box .detail_max_box_right .share_box {
+  width: 100px;
+  height: 80px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+}
+section .detail_max_box .detail_max_box_right .share_box .kong_share {
+  width: 60px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+section .detail_max_box .detail_max_box_right .share_box .kong_share .show_share {
+  margin: 0 auto;
+  width: 20px;
+  height: 20px;
+  background: url(../img/xinRedo.png) no-repeat;
+  background-size: 100%;
+}
+section .detail_max_box .detail_max_box_right .share_box .kong_share span {
+  text-align: center;
+  line-height: 40px;
+}
+section .detail_max_box .detail_max_box_right .share_box .hong_share {
+  width: 60px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 15px;
+  display: none;
+}
+section .detail_max_box .detail_max_box_right .share_box .hong_share .show_hong_share {
+  margin: 0 auto;
+  width: 20px;
+  height: 20px;
+  background: url(../img/xinRedh.png) no-repeat;
+  background-size: 100%;
+}
+section .detail_max_box .detail_max_box_right .share_box .hong_share span {
+  text-align: center;
+  line-height: 40px;
+}
+section .detail_max_box .detail_max_box_right .share_box .social-share {
+  width: 200px;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: -50px;
+}

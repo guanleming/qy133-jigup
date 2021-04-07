@@ -9,6 +9,7 @@
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.6);
   position: fixed;
+  z-index: 10;
 }
 
 /* 网页头部 */
@@ -64,7 +65,6 @@
   .header-login {
     width: 200px;
     height: 71px;
-
     a {
       float: left;
       margin-left: 24px;
@@ -88,6 +88,7 @@
       }
     }
   }
+  
 
   /* 登陆样式 */
   .login {
@@ -101,7 +102,7 @@
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 5;
+    z-index: 11;
     box-shadow: 3px 4px 5px #444;
     overflow: hidden;
 
@@ -316,4 +317,43 @@ dd.footer_jian {
   color: #ff5a25;
   cursor: pointer;
   background: url("./../image/icon/loading-icon.gif") no-repeat 430px center;
+}
+
+@keyframes example {
+  from {
+    margin-left: 1300px;
+    margin-top: -100px;
+  }
+  to {
+    margin-left: 950px;
+    margin-top: 40px;
+  }
+}
+.footer_total > .footer_return {
+  position: fixed;
+  right: 120px;
+  bottom: 59px;
+  width: 42px;
+  height: 42px;
+  // display: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background: url("../img/back.png") no-repeat center center;
+  background-color: #e8e8e8;
+}
+
+// 返回顶部
+.top {
+  position: fixed;
+  right: 20px;
+  bottom: 10%;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 50px;
+  color: #e0e0e0;
+  outline: none;
+  border: 0px;
+  background-color: #b0b0b0;
 }

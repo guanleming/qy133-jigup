@@ -1,3 +1,144 @@
+section .header-lunbo {
+  width: 100%;
+  height: 324px;
+}
+section .header-lunbo .swiper-container {
+  width: 100%;
+  height: 324px;
+}
+section .header-lunbo .swiper-container .swiper-wrapper #swiper-slide-a {
+  background: url(../img/adv0.jfif) no-repeat center center;
+  background-size: cover;
+  position: relative;
+}
+section
+  .header-lunbo
+  .swiper-container
+  .swiper-wrapper
+  #swiper-slide-a
+  .header-lunbo-time {
+  width: 318px;
+  height: 250px;
+  position: absolute;
+  margin-left: 950px;
+  margin-top: 40px;
+  animation-name: example;
+  animation-duration: 1.5s;
+}
+section
+  .header-lunbo
+  .swiper-container
+  .swiper-wrapper
+  #swiper-slide-a
+  .header-lunbo-time
+  h1 {
+  color: white;
+  font-size: 32px;
+}
+section
+  .header-lunbo
+  .swiper-container
+  .swiper-wrapper
+  #swiper-slide-a
+  .header-lunbo-time
+  ul
+  li {
+  margin-top: 10px;
+  margin-left: 65px;
+}
+section
+  .header-lunbo
+  .swiper-container
+  .swiper-wrapper
+  #swiper-slide-a
+  .header-lunbo-time
+  ul
+  li
+  a {
+  display: inline-block;
+  width: 80px;
+  height: 35px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  line-height: 35px;
+  text-align: center;
+  border-radius: 20px;
+}
+section
+  .header-lunbo
+  .swiper-container
+  .swiper-wrapper
+  #swiper-slide-a
+  .header-lunbo-time
+  h4 {
+  color: white;
+  width: 248px;
+  height: 35px;
+  line-height: 35px;
+  background-color: rgba(0, 0, 0, 0.3);
+  text-align: center;
+  margin-left: 65px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+section
+  .header-lunbo
+  .swiper-container
+  .swiper-wrapper
+  #swiper-slide-a
+  .header-lunbo-time
+  .set-time-out {
+  margin-top: 40px;
+  margin-left: 90px;
+  color: white;
+}
+section
+  .header-lunbo
+  .swiper-container
+  .swiper-wrapper
+  #swiper-slide-a
+  .header-lunbo-time
+  .set-time-out
+  span {
+  color: white;
+}
+section
+  .header-lunbo
+  .swiper-container
+  .swiper-wrapper
+  #swiper-slide-a
+  .header-lunbo-time
+  button {
+  margin-top: 13px;
+  margin-left: 75px;
+  width: 220px;
+  height: 35px;
+  color: white;
+  background-color: #fe584d;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-size: 16px;
+}
+section .header-lunbo .swiper-container .swiper-wrapper #swiper-slide-b {
+  background: url(../img/adv1.jfif) no-repeat center center;
+  background-size: cover;
+}
+section .header-lunbo .swiper-container .swiper-wrapper #swiper-slide-c {
+  background: url(../img/adv2.jfif) no-repeat center center;
+  background-size: cover;
+}
+section .header-lunbo .swiper-container .swiper-wrapper #swiper-slide-d {
+  background: url(../img/adv04.jfif) no-repeat center center;
+  background-size: cover;
+}
+section .header-lunbo .swiper-container .swiper-wrapper #swiper-slide-e {
+  background: url(../img/adv4.jfif) no-repeat center center;
+  background-size: cover;
+}
+
+
+
 /* 轮播图 */
 .slide-show-box {
   width: 100%;
@@ -108,6 +249,14 @@
 }
 
 .slide-show .show-list .show-item h3 {
+  font-size: 16px;
+  height: 42;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  /* 控制行数 */
+  overflow: hidden;
+  /* 多行实现省略号 */
   padding: 0px 5px;
 }
 
@@ -271,7 +420,7 @@
 .navigate-box .navigate li {
   float: left;
   width: 235px;
-  height: 235px;
+  height: 240px;
   border: 1px solid #e0e0e0;
   border-bottom: 0px;
   border-top-left-radius: 5px;
@@ -295,6 +444,8 @@
 }
 
 .navigate-box .navigate li a p {
+  font-size: 16px;
+  height: 48px;
   padding: 5px 5px;
 }
 
@@ -351,8 +502,12 @@
 }
 
 .find-box .find li a p:first-of-type {
-  font-size: 18px;
+  font-size: 14px;
   padding: 5px 0 2px 5px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
 }
 
 .find-box .find li a p:nth-child(3) {
